@@ -378,7 +378,7 @@ Time to submit your solution for testing.
    }
    ```
 
-1. Commit and push your changes. The **only** files that have to be committed are `SOLUTION`, `bastion_connect.sh`, `tlsHandshake.sh` and `ec2_instances.json`.
+1. Commit and push your changes. The **only** files that have to be committed are `SOLUTION`, `bastion_connect.sh`, `ssh_keys_rotation.sh`, `tlsHandshake.sh` and `ec2_instances.json`.
 1. In [GitHub Actions][github_actions], watch the automated test execution workflow (enable Actions if needed). 
    If there are any failures, click on the failed job and **read the test logs carefully**. Fix your solution, commit and push again.
 
