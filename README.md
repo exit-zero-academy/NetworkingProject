@@ -37,7 +37,7 @@ Let's get started...
 
 2. Create one EC2 instance in your public subnet and another one in your private subnet.
 3. Connect to your public instance from your local machine. 
-4. Can you connect it from your local machine? no... it has no public IP event, and it is not accessible from the internet at all.
+4. Can you connect to the private instance from your local machine? no... it has no public IP, and it is not accessible from the internet at all.
    Think how you can use the **public instance** to connect to the **private instance**.
    Once you’re in the private instance, try to access the internet and make sure you don’t have access.
 5. Answer the below questions in `SOLUTION`:
