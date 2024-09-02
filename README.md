@@ -1,7 +1,8 @@
-> [!IMPORTANT]
-> This project is part of the [DevOpsTheHardWay][DevOpsTheHardWay] course. Please [onboard the course][onboarding_tutorial] before starting. 
-> 
-> Before finishing this project, it's advisable to complete [any previous projects](https://github.com/exit-zero-academy/DevOpsTheHardWay?#studying-guide) if you haven't already done so.
+> [!NOTE]
+> This project is part of the [DevOpsTheHardWay][DevOpsTheHardWay] course. 
+
+> [!TIP]
+> Before starting this project, it's advisable to complete [any previous projects](https://github.com/exit-zero-academy/DevOpsTheHardWay?#studying-guide) if you haven't already done so.
 
 # Networking and Security Project  [![][autotest_badge]][autotest_workflow]
 
@@ -35,7 +36,7 @@ Let's get started...
 
     **Note:** No need to create **NAT gateway** in any way you choose.   
 
-2. Create one EC2 instance in your public subnet and another one in your private subnet.
+2. If haven't done yet, create one EC2 instance in your public subnet and another one in your private subnet.
 3. Connect to your public instance from your local machine. 
 4. Can you connect to the private instance from your local machine? no... it has no public IP, and it is not accessible from the internet at all.
    Think how you can use the **public instance** to connect to the **private instance**.
